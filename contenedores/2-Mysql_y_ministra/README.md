@@ -10,3 +10,11 @@ chmod +x deploy.sh
 
 ### Nota:
 *Abrir Portainer y en la parte de contenedores correr primero Mysql y después ministra.*
+
+### Para ingresar a ministra ir a un navegador Web y poner:
+
+`"IP contenedor ministra"/stalker_portal/server/adm`
+
+En nuestro caso es:
+
+http://172.19.0.3/stalker_portal/server/adm/
