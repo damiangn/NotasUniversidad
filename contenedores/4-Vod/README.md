@@ -18,10 +18,10 @@ docker run -it -v "directorio"/htdocs/:/var/www/html/ --name VoDServer --restart
 
 **directorio:** Poner el directorio donde se encuentran el Dockerfile y la carpeta htdocs
 
--v "directorio"/htdocs/:/var/www/html/: Monta un volumen. En este caso, el
-directorio local "directorio"/htdocs/ se monta en el contenedor en la ruta /
-var/www/html/. Esto permite compartir archivos entre tu sistema local y el contenedor. De
-este modo, cualquier cambio en /home/catv/VoDServer/htdocs/ se reflejará en el 
+`-v "directorio"/htdocs/:/var/www/html/`: Monta un volumen. En este caso, el
+directorio local `"directorio"/htdocs/` se monta en el contenedor en la ruta 
+`/var/www/html/`. Esto permite compartir archivos entre tu sistema local y el contenedor. De
+este modo, cualquier cambio en `/home/catv/VoDServer/htdocs/` se reflejará en el 
 contenedor y viceversa.
 
 Un ejemplo de directorio sería: 
