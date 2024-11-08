@@ -14,8 +14,9 @@ docker build -t "nombre_imagen"
 docker run -it -v "directorio"/htdocs/:/var/www/html/ --name VoDServer --restart always "nombre_imagen"
 ```
 
-**nombre_imagen** darle un nombre a la imagen
-**directorio** Poner el directorio donde se encuentran el Dockerfile y la carpeta htdocs
+**nombre_imagen:** darle un nombre a la imagen
+
+**directorio:** Poner el directorio donde se encuentran el Dockerfile y la carpeta htdocs
 
 -v "directorio"/htdocs/:/var/www/html/: Monta un volumen. En este caso, el
 directorio local "directorio"/htdocs/ se monta en el contenedor en la ruta /
