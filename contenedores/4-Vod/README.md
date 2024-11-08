@@ -5,7 +5,7 @@ Descargar el Dockerfile y la carpeta htdocs. Ubicarlos en el mismo directorio.
 ### Descargar una imagen ubuntu que tenga un apache2. Hacer esto ejecutando el Dockerfile:
 
 ```bash
-docker build -t "nombre_imagen"
+docker build -t "nombre_imagen" .
 ```
 
 ### Ejecutar un contenedor usando esa imagen:
