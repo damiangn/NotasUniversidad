@@ -21,7 +21,7 @@ docker run -it -v "directorio"/htdocs/:/var/www/html/ --name VoDServer --restart
 `-v "directorio"/htdocs/:/var/www/html/`: Monta un volumen. En este caso, el
 directorio local `"directorio"/htdocs/` se monta en el contenedor en la ruta 
 `/var/www/html/`. Esto permite compartir archivos entre tu sistema local y el contenedor. De
-este modo, cualquier cambio en `/home/catv/VoDServer/htdocs/` se reflejará en el 
+este modo, cualquier cambio en `"directorio"/htdocs/` se reflejará en el 
 contenedor y viceversa.
 
 Un ejemplo de directorio sería: 
