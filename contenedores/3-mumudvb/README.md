@@ -13,4 +13,4 @@ docker run -t -i --device=/dev/dvb/ --name mumudvb_contenedor mumudvb
 ```
 
 ### Nota:
-#### Abrir portainer, conectar SDR a la PC y recién ahí poner Start para iniciar el contenedor.
+*Abrir portainer, conectar SDR a la PC y recién ahí poner Start para iniciar el contenedor.*
