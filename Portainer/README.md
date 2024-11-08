@@ -30,3 +30,9 @@ docker run -d -p 8000:8000 -p 9443:9443 --name=portainer \
    portainer/portainer-ce:latest
 
 ```
+
+## Iniciar portainer
+
+Dirigirse al navegador Web y escribir (https://localhost:9443)
+
+En caso de tener otro puerto cambiar 9443 por ese puerto.
