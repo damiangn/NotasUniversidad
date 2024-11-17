@@ -22,7 +22,7 @@ El `-d` es para que se ejecute en segundo plano, sino lo ponemos se queda ejecut
 4. Ir a donde tengamos snmp_exporter, entrar en modo super usuario con `sudo su` y ejecutar `./snmp_exporter`
 
 5. Una vez hecho esto, abrir un navegador web, ir a la dirección IP de prometheus con su puerto correspondiente. Para eso se puede ir a Portainer y ver su la IP del contenedor 
-y el puerto es el 9116 en este caso. Esto nos abrirá prometheus. En "Status/Target" debemos ver el mkt en up.
+y el puerto es el 9090 en este caso. Esto nos abrirá prometheus. En "Status/Target" debemos ver el mkt en up.
 
 6. Ahora abrir grafana. Para esto ir a la dirección IP del contenedor grafana y el puerto 3000.
 
