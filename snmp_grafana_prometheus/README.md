@@ -12,4 +12,7 @@
 3. Modificar el archivo _prometheus.yml_ y colocar la direccion IP de nuestro router 10.16.0.1. Esto se ve en la linea que dice
  _nombre de trabajo "mkt"/dispositivo SNMP_. Luego, en _"replacement"_ colocar la dirección IP del contenedor de prometheus. Por ej: 172.24.0.1:9116
 
+![ejemplo](snmp_grafana_prometheus/img/prometheus.jpg)
+
+4. 
 
