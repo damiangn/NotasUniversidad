@@ -14,7 +14,8 @@
 
 ![ejemplo](img/prometheus.jpg)
 
-4. Ejecutar docker compose. Ir a donde este el archivo docker-compose.yml y escribir en una Terminal de Linux:
+4. Docker Compose ==> Permite administrar varios contenedores desde el mismo archivo.
+Ejecutar docker compose. Ir a donde este el archivo docker-compose.yml y escribir en una Terminal de Linux:
 ```bash
 docker compose up -d 
 ```
@@ -28,10 +29,8 @@ y el puerto es el 9116 en este caso. Esto nos abrirá prometheus. En "Status/Tar
 7. Ahora abrir grafana. Para esto ir a la dirección IP del contenedor grafana y el puerto 3000.
 
 8. Ir a Dashboard y en "New/Import" colocar la ID del dashboard que queramos utilizar.
-Las ID se pueden ver en la página de grafana, para ver dashboards ir al siguiente [enlace](https://grafana.com/grafana/dashboards/?search=prometheus).
-
+Las ID se pueden ver en la página de grafana, para ver dashboards ir al siguiente [enlace](https://grafana.com/grafana/dashboards/?search=prometheus).\n
 Una vez seleccionado le damos a "Load" y después a "Import" más abajo.
-
 Después en nuestras Dashboards vamos a tener las que hayamos importado, entramos a una, por ejemplo a "Mikrotik" y en la parte superior colocamos la 
 dirección IP del router que queremos visualizar, por ejemplo 10.16.0.1. Con esto ya tendríamos que poder visualizar todas las métricas del mikrotik.
 
