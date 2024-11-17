@@ -29,6 +29,7 @@ y el puerto es el 9116 en este caso. Esto nos abrirá prometheus. En "Status/Tar
 
 8. Ir a Dashboard y en "New/Import" colocar la ID del dashboard que queramos utilizar.
 Las ID se pueden ver en la página de grafana, para ver dashboards ir al siguiente [enlace](https://grafana.com/grafana/dashboards/?search=prometheus).
+
 Una vez seleccionado le damos a "Load" y después a "Import" más abajo.
 
 Después en nuestras Dashboards vamos a tener las que hayamos importado, entramos a una, por ejemplo a "Mikrotik" y en la parte superior colocamos la 
