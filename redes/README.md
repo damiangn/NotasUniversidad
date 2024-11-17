@@ -11,5 +11,6 @@ docker network create -d macvlan --subnet=10.0.20.0/24 --gateway=10.0.20.1 --ip-
 docker network create -d macvlan --subnet=10.0.30.0/24 --gateway=10.0.30.1 --ip-range=10.0.30.128/25 -o parent=enp3s0.30 VoIP
 ```
 
-<h3>Nota:<h3> _Estos son dos ejemplos. Borrar --ip-range si no se quiere reservar un rango. En caso de no borrarlo el rango reservado corresponde, por ej:_
+### Nota:
+_Estos son dos ejemplos. Borrar --ip-range si no se quiere reservar un rango. En caso de no borrarlo el rango reservado corresponde, por ej:_
 _--ip-range=10.0.30.128/25 el rango va desde 10.0.30.128 hasta 10.0.30.255_
