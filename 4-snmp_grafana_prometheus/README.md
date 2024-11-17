@@ -31,6 +31,7 @@ y el puerto es el 9090 en este caso. Esto nos abrirá prometheus. En "Status/Tar
 Las ID se pueden ver en la página de grafana, para ver dashboards ir al siguiente [enlace](https://grafana.com/grafana/dashboards/?search=prometheus).
 Una vez seleccionado le damos a "Load" y después a "Import" más abajo.
 ![dashboard import](img/dashboard.jpg)
+
 Después en nuestras Dashboards vamos a tener las que hayamos importado, entramos a una, por ejemplo a "Mikrotik" y en la parte superior colocamos la 
 dirección IP del router que queremos visualizar, por ejemplo 10.16.0.1. Con esto ya tendríamos que poder visualizar todas las métricas del mikrotik.
 ![dashboard del mkt en la 10.6.0.1](img/grafana.jpg)
