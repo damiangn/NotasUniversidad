@@ -10,7 +10,7 @@
 2. Modificar el archivo _prometheus.yml_ y colocar la direccion IP de nuestro router 10.16.0.1. Esto se ve en la linea que dice
  _nombre de trabajo "mkt"/dispositivo SNMP_. Luego, en _"replacement"_ colocar la dirección IP del contenedor de prometheus. Por ej: 172.24.0.1:9116
 
-![ejemplo](img/prometheus.jpg)
+![ejemplo](img/prometheus2.jpg)
 
 3. Docker Compose ==> Permite administrar varios contenedores desde el mismo archivo.
 Ejecutar docker compose. Ir a donde este el archivo docker-compose.yml y escribir en una Terminal de Linux:
